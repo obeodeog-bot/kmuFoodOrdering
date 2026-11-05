@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:text="Enjoy Restaurant Quality Meals at Home"
+        android:textAlignment="center"
+        android:textColor="#09B63A"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="362dp"
+        android:layout_height="349dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="69dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/burrgar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="78dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="casual"
+        android:text="Design By NeatRoots"
+        android:textAlignment="center"
+        android:textColor="#09B53A"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="131dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#47D725"
+        android:fontFamily="casual"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
